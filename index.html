@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cinema</title>
+  <link rel="icon" type="image/svg+xml" href="filmIco.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2d90f4032e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header class="header">
+		<nav class="nav">
+			<div>
+				<a href="#" class="logo nav-link">Ariza API Filmes</a>
+			</div>
+			
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav-list">
+					<li id="popular"class="nav-menu" ><a href="#" class="nav-item nav-link">Motivacional</a></li>
+					<li id="top-rated"class="nav-menu"><a href="#" class="nav-item nav-link">Reflexivo</a></li>
+					<li id="now-playing" class="nav-menu"><a href="#" class="nav-item nav-link">Alegre</a></li>
+				</ul>	
+			</div>
+
+			<button id="btnMenu" class="nav-toggle">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</nav>
+	</header>
+
+  <div class="container">
+    <h1>Cinema e Saúde Mental</h1>
+    <h2>Um Filme para ti!</h2>
+    <p>Quando assistimos a um filme, nos expomos à reflexão de situações sociais, emocionais ou individuais que ressoam em nossa vida e nos ajudam a nos libertar de situações dolorosas ou a ter um melhor entendimento sobre determinado tema.
+    Neste blog fazemos recomendações de filmes que ajudam você a melhorar seu humor, ter mais resiliência e vontade, auxiliando assim no seu fortalecimento emocional.</p>
+
+    <ul data-js="filmes" class="filmes"></ul>
+  </div>
+  <div id="slider">
+    <img src="img/1.jpg" alt="Poster do Filme Billy Elliot">
+    <img src="img/2.jpg" alt="Poster do Filme Divertida-mente">
+    <img src="img/3.jpg" alt="Poster do Filme As vantágens de ser invisível">
+    <img src="img/4.jpg" alt="Poster do Filme À procura da felicidade">
+    <img src="img/5.jpg" alt="Poster do Filme A vida secreta de Walter Mitty">
+    <img src="img/6.jpg" alt="Poster do Filme Que horas ela volta?">
+    <img src="img/7.jpg" alt="Poster do Filme Intocáveis">
+    <img src="img/8.jpg" alt="Poster do Filme Walt antes de Mickey">    
+</div></br>
+
+</br>
+<div class="titulo">
+    <h2 id="titulo">Filmes Motivacionais</h2>
+</div>
+
+<div class="contenedor" id="contenedor">
+
+</div>
+
+<div class="btnUp" id="btnUp">
+    <i class="fa-solid fa-chevron-up"></i>
+</div>
+
+<div class="paginacion">
+    <button id="btnAnterior">Anterior</button>
+    <button id="btnSiguiente">Seguinte</button>
+</div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
